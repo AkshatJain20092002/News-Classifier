@@ -1,7 +1,8 @@
 # News-Classifier
 ### Project Description:
 This project aims to build a supervised learning NLP model to classify fake news from true news using the "News Classifier Dataset." The dataset can be found at Kaggle.
-Link: https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification
+Link: [https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets)
+Embedding used are given under this link: [https://tinyurl.com/NLPLAB3DATA](https://tinyurl.com/NLPLAB3DATA)
 
 ### Preprocessing Steps:
 Tokenization: The text data will be tokenized into individual words or tokens for further analysis.
