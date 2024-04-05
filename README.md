@@ -8,10 +8,21 @@ Tokenization: The text data will be tokenized into individual words or tokens fo
 
 Stopword Removal: Commonly occurring words (stopwords) that do not contribute much to the classification will be removed.
 
-Porter Stemming: Words will be reduced to their base or root form using Porter stemming to reduce feature dimensionality.
+Lemmatization : Words will be reduced to their base or root form using lemmatization to reduce feature dimensionality.
 
-TF-IDF (Term Frequency-Inverse Document Frequency): The text data will be converted into numerical vectors using the TF-IDF technique, which captures the importance of each word in the documents relative to the entire corpus.
+### Exploratory Data Analysis (EDA)
+EDA provides insights into the dataset's characteristics and distributions. We conduct analyses such as bigram frequency, word frequency mapping, word cloud visualization, and KDE plot for word tokens.
+
+### Vectorization
+Two vectorization techniques, Bag of Words and TF-IDF, are employed to prepare the data for classification tasks. The accuracies of these techniques are compared for classification purposes.
+
+### POS Tagging and Fake News Detection
+We delve into POS tagging using NLTK and apply various machine learning models for fake news detection. Models include Naive Bayes, LSTM, RNN, and Bidirectional LSTM. Performance metrics such as confusion matrices are presented to evaluate the effectiveness of each model.
 
 ### Models:
 Logistic Regression Model,
 Passive Aggressive Classifier Model
+Naive Bayes Model
+LSTM 
+RNN
+Bidirectional LSTM
